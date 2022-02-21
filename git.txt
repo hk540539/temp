@@ -1,0 +1,69 @@
+sudo apt-get install git
+
+sudo yum install git
+
+git config --global user.email "youremail@emaildomain.com"
+
+git config --global user.name "your username"
+
+ git config -l
+ 
+ git init projectname
+ 
+ cd projectname 
+ 
+ touch helloworld.c
+  
+ git add .
+ 
+ 
+ git commit -m "First commit of project, just an empty file"
+ 
+ git add helloworld.c
+ 
+ git commit -m "added source code to helloworld.c"
+ 
+ git add .
+
+ git commit -m "initial commit"
+ 
+ git remote add origin https://gitlab.com/Parameswari/gitecommrepo.git
+ 
+ git push --force origin master
+ ==============================
+ docker login registry.gitlab.com
+
+ git remote add origin  https://github.com/eswaribala/rpsinteljenkinslab.git
+ 
+ git log
+ 
+ git clone project.url/projectname.git
+ 
+ 
+ git push
+ 
+ create branch
+ 
+ git branch docs #create branch
+  
+ git branch  #list branch
+ 
+ git branch -d docs  #delete branch
+ 
+ git branch -m <old_name> <new_name> #rename branch
+ 
+ git checkout docs
+ 
+ git add .
+ 
+ git commit -m "updated'
+ 
+ git push origin docs
+ 
+ git checkout master
+ 
+ git ls-files
+ 
+ git merge docs
+ 
+ git push origin master
