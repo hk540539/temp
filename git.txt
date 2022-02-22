@@ -97,3 +97,5 @@ sudo nano ~/.gitconfig
 tool=vim
 
 git mergetool
+
+my updated fro user ha ha ha aa
