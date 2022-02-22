@@ -67,3 +67,33 @@ git config --global user.name "your username"
  git merge docs
  
  git push origin master
+ 
+ #conflicts
+ git init user1
+ 
+ git init user2
+ 
+ cd user1
+ git pull repourl
+ modify file
+ git add .
+ git commit -m <message>
+ 
+ cd user2
+ git pull repoutl
+ modify
+ commit
+ git push
+ sudo apt-get update
+ sudo apt install kdiff3
+ git config --global --add merge.tool kdiff3
+  git config --global --add mergetool.kdiff3.path /user/bin/kdiff3
+git config --global --add mergetool.trustExitCode false
+
+or
+
+sudo apt install vim
+sudo nano ~/.gitconfig
+tool=vim
+
+git mergetool
