@@ -98,6 +98,4 @@ tool=vim
 
 git mergetool
 
-
 flaws on the commit
-my updated fro user ha ha ha aa

@@ -98,6 +98,8 @@ tool=vim
 
 git mergetool
 
-
+<<<<<<< HEAD
 flaws on the commit
+=======
 my updated fro user ha ha ha aa
+>>>>>>> d6c63d18a9be143b5b6b98b51fc7d559c64d5873
