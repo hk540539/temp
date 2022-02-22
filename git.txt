@@ -97,3 +97,5 @@ sudo nano ~/.gitconfig
 tool=vim
 
 git mergetool
+
+flaws on the commit
